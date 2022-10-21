@@ -1,1 +1,1 @@
-### initial setup
+### a simple ethereum indexer
