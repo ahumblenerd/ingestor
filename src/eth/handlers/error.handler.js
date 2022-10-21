@@ -6,6 +6,7 @@ async function errorHandler(err) {
   logger.debug(err);
   throw new ApiError(INTERNAL_SERVER_ERROR, 'error running subscriber', false, err.stack);
 }
+
 module.exports = {
   errorHandler,
 };
